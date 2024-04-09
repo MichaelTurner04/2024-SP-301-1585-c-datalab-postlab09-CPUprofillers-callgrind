@@ -3,3 +3,8 @@
 1.c: the copy constructor is called 1000 times because its referenced when the average function is ran.
 1.d: fixed the code to make vect a pass by reference variable inside the average function.
 1.e the fix works and the vector copy constructior is only called 1 time.
+
+2.a: the line in main() that consumes the most instructions is line 27 (calculating the average).
+2.b: 9812 instruction reads are spent calculating the average.
+2.c:fixed code
+2.d: instruction reads are spent calculating the average after fix.
