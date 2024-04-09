@@ -1,0 +1,5 @@
+1.a: The two most called methods in vector.h are the operator[](unsigned int) and length()const with the operator[] being called 500500 times and the length() being called 502500.
+1.b: The vector's copy constructor is called 1000 times.
+1.c: the copy constructor is called 1000 times because its referenced when the average function is ran.
+1.d: fixed the code to make vect a pass by reference variable inside the average function.
+1.e the fix works and the vector copy constructior is only called 1 time.
