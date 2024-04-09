@@ -1,0 +1,336 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.7766' (creator: callgrind-3.19.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 340654
+Trigger: Program termination
+Profiled target:  ./prob3 (PID 7766, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+Ir                 
+--------------------------------------------------------------------------------
+1,888,230 (100.0%)  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir                file:function
+--------------------------------------------------------------------------------
+489,596 (25.93%)  ./elf/../sysdeps/generic/dl-new-hash.h:_dl_lookup_symbol_x
+479,798 (25.41%)  ./elf/./elf/dl-lookup.c:do_lookup_x [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+172,114 ( 9.12%)  ./elf/./elf/dl-lookup.c:_dl_lookup_symbol_x [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+126,347 ( 6.69%)  ./elf/./elf/dl-reloc.c:_dl_relocate_object [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+121,400 ( 6.43%)  ./elf/../sysdeps/x86_64/dl-machine.h:_dl_relocate_object
+105,448 ( 5.58%)  ./elf/./elf/do-rel.h:_dl_relocate_object
+100,928 ( 5.35%)  ./elf/./elf/dl-lookup.c:check_match [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+ 82,485 ( 4.37%)  ./string/../sysdeps/x86_64/multiarch/../multiarch/strcmp-sse2.S:strcmp [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+ 24,383 ( 1.29%)  ./elf/./elf/dl-tunables.c:__GI___tunables_init [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+ 12,402 ( 0.66%)  ./elf/./elf/dl-version.c:_dl_check_map_versions [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+ 12,164 ( 0.64%)  ???:std::locale::_Impl::_M_install_facet(std::locale::id const*, std::locale::facet const*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+ 10,176 ( 0.54%)  ./elf/../sysdeps/generic/ldsodefs.h:_dl_relocate_object
+  9,404 ( 0.50%)  ./elf/./elf/dl-runtime.c:_dl_fixup [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  9,285 ( 0.49%)  ./elf/../sysdeps/generic/ldsodefs.h:do_lookup_x
+  8,192 ( 0.43%)  ./wcsmbs/./wcsmbs/btowc.c:btowc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+  7,749 ( 0.41%)  ???:std::istream::getline(char*, long, char) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+  7,428 ( 0.39%)  ./elf/../sysdeps/generic/dl-protected.h:do_lookup_x
+  5,709 ( 0.30%)  ./libio/./libio/getc.c:getc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+  4,000 ( 0.21%)  ./elf/../sysdeps/x86_64/dl-trampoline.h:_dl_runtime_resolve_xsave [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  3,610 ( 0.19%)  ./elf/./elf/dl-load.c:_dl_map_object_from_fd [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  3,376 ( 0.18%)  ./elf/./elf/dl-cache.c:_dl_cache_libcmp [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  3,222 ( 0.17%)  ./libio/./libio/genops.c:_IO_sputbackc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+  3,147 ( 0.17%)  ???:std::ctype<wchar_t>::_M_initialize_ctype() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+  3,119 ( 0.17%)  ./elf/../sysdeps/x86/dl-cacheinfo.h:intel_check_word.constprop.0 [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  3,043 ( 0.16%)  ./libio/./libio/ioungetc.c:ungetc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+  2,741 ( 0.15%)  ./elf/./elf/dl-misc.c:_dl_name_match_p [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  2,688 ( 0.14%)  ./wcsmbs/./wcsmbs/wctob.c:wctob [/usr/lib/x86_64-linux-gnu/libc.so.6]
+  2,466 ( 0.13%)  ./elf/./elf/dl-tunables.h:__GI___tunables_init
+  2,413 ( 0.13%)  ./elf/../bits/stdlib-bsearch.h:intel_check_word.constprop.0
+  2,352 ( 0.12%)  ???:__dynamic_cast [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+  2,329 ( 0.12%)  ./elf/./elf/dl-load.c:_dl_map_object [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  2,273 ( 0.12%)  ./elf/./elf/dl-deps.c:_dl_map_object_deps [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  1,977 ( 0.10%)  ???:__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+  1,738 ( 0.09%)  vector.h:Vector<char*>::operator[](unsigned int) [/home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem2/prob3]
+  1,602 ( 0.08%)  ???:__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::uflow() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+  1,576 ( 0.08%)  ./elf/./elf/get-dynamic-info.h:_dl_map_object_from_fd
+  1,480 ( 0.08%)  ???:__cxxabiv1::__si_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+  1,301 ( 0.07%)  prob3.cpp:main [/home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem2/prob3]
+  1,245 ( 0.07%)  ./elf/./elf/rtld.c:dl_main [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  1,143 ( 0.06%)  ./wctype/./wctype/wctype_l.c:wctype_l [/usr/lib/x86_64-linux-gnu/libc.so.6]
+  1,130 ( 0.06%)  ./elf/./elf/dl-object.c:_dl_new_object [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  1,122 ( 0.06%)  ./elf/./elf/dl-cache.c:search_cache [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  1,098 ( 0.06%)  ???:std::locale::id::_M_id() const [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+  1,072 ( 0.06%)  ./elf/./elf/dl-minimal-malloc.c:__minimal_malloc [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  1,047 ( 0.06%)  ./elf/./elf/dl-load.c:open_path [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+  1,045 ( 0.06%)  ./string/../sysdeps/x86_64/multiarch/memcmp-avx2-movbe.S:__memcmp_avx2_movbe [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    884 ( 0.05%)  ./string/../sysdeps/x86_64/multiarch/strlen-avx2.S:__strlen_avx2 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    839 ( 0.04%)  ./malloc/./malloc/malloc.c:_int_malloc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    820 ( 0.04%)  ./string/../sysdeps/x86_64/multiarch/../multiarch/memset-vec-unaligned-erms.S:memset [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    815 ( 0.04%)  ./elf/./elf/dl-load.c:open_verify.constprop.0 [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    798 ( 0.04%)  ./stdlib/./stdlib/cxa_finalize.c:__cxa_finalize [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    782 ( 0.04%)  ???:std::locale::_Impl::_Impl(unsigned long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    776 ( 0.04%)  ./malloc/./malloc/malloc.c:ptmalloc_init.part.0
+    764 ( 0.04%)  ./string/../sysdeps/x86_64/multiarch/../multiarch/strlen-sse2.S:strlen [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    731 ( 0.04%)  ???:std::ctype<char>::_M_widen_init() const [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    717 ( 0.04%)  ./string/../sysdeps/x86_64/multiarch/../multiarch/strchr-sse2.S:index [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    680 ( 0.04%)  ./elf/./dl-map-segments.h:_dl_map_object_from_fd
+    668 ( 0.04%)  ./elf/./elf/dl-tunables.c:__tunable_get_val [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    649 ( 0.03%)  ./elf/./elf/dl-hwcaps.c:_dl_important_hwcaps [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    640 ( 0.03%)  ./elf/./elf/dl-profstub.c:_dl_mcount_wrapper_check [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    640 ( 0.03%)  ./iconv/./iconv/gconv_simple.c:__gconv_btwoc_ascii [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    561 ( 0.03%)  ./elf/../sysdeps/x86/dl-cacheinfo.h:handle_intel.constprop.0 [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    553 ( 0.03%)  ./string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:memcpy [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    548 ( 0.03%)  ./string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:mempcpy [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    524 ( 0.03%)  ???:__cxxabiv1::__vmi_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    512 ( 0.03%)  ./wcsmbs/./wcsmbsload.h:btowc
+    509 ( 0.03%)  ./elf/./elf/dl-init.c:call_init [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    472 ( 0.02%)  ???:std::ios_base::ios_base() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    414 ( 0.02%)  ???:std::__cxx11::numpunct<char>::_M_initialize_numpunct(__locale_struct*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    414 ( 0.02%)  ???:std::numpunct<char>::_M_initialize_numpunct(__locale_struct*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    407 ( 0.02%)  ./stdlib/./stdlib/cxa_atexit.c:__internal_atexit [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    396 ( 0.02%)  ./elf/./dl-find_object.h:_dl_find_object_from_map [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    393 ( 0.02%)  ./elf/./elf/dl-hwcaps_split.c:_dl_hwcaps_split [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    381 ( 0.02%)  ./stdlib/./stdlib/cxa_atexit.c:__new_exitfn [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    374 ( 0.02%)  ???:std::locale::locale() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    372 ( 0.02%)  ./elf/./elf/dl-error-skeleton.c:_dl_catch_exception [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    364 ( 0.02%)  ./libio/./libio/iofflush.c:fflush [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    358 ( 0.02%)  ???:0x00000000000d48d0 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    356 ( 0.02%)  ./elf/../sysdeps/nptl/dl-tls_init_tp.c:rtld_mutex_dummy [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    350 ( 0.02%)  ???:std::__cxx11::numpunct<wchar_t>::_M_initialize_numpunct(__locale_struct*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    350 ( 0.02%)  ???:std::numpunct<wchar_t>::_M_initialize_numpunct(__locale_struct*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    346 ( 0.02%)  ./elf/./get-dynamic-info.h:dl_main
+    340 ( 0.02%)  ./elf/./elf/dl-environ.c:_dl_next_ld_env_entry [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    329 ( 0.02%)  ./elf/../elf/dl-tls.c:_dl_allocate_tls_storage [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    324 ( 0.02%)  ./io/../sysdeps/unix/sysv/linux/open64_nocancel.c:__open_nocancel [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    312 ( 0.02%)  ???:0x0000000000003430 [/usr/lib/x86_64-linux-gnu/libgcc_s.so.1]
+    311 ( 0.02%)  ???:std::ios_base::Init::Init() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    302 ( 0.02%)  ./elf/./elf/dl-load.c:_dl_init_paths [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    290 ( 0.02%)  ./elf/./elf/dl-minimal.c:strsep [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    276 ( 0.01%)  ./elf/./elf/dl-find_object.c:_dlfo_process_initial [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    265 ( 0.01%)  ./elf/./elf/dl-object.c:_dl_add_to_namespace_list [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    264 ( 0.01%)  ./libio/./libio/fileops.c:_IO_file_sync@@GLIBC_2.2.5 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    263 ( 0.01%)  ./elf/./get-dynamic-info.h:_dl_start
+    251 ( 0.01%)  ./string/../string/strcspn.c:strcspn [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    250 ( 0.01%)  ./stdlib/./stdlib/exit.c:__run_exit_handlers [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    247 ( 0.01%)  ./elf/./elf/dl-find_object.c:_dlfo_sort_mappings [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    247 ( 0.01%)  ./libio/./libio/libioP.h:fflush
+    246 ( 0.01%)  ./setjmp/../sysdeps/x86_64/setjmp.S:__sigsetjmp [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    244 ( 0.01%)  ./malloc/./malloc/malloc.c:malloc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    240 ( 0.01%)  ./elf/../sysdeps/unix/sysv/linux/dl-sysdep.c:_dl_sysdep_parse_arguments [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: vector.h
+--------------------------------------------------------------------------------
+Ir           
+
+  .           #include<stdexcept> // for invalid_argument
+  .           using namespace std;
+  .           
+  .           template<class T>
+  .           class Vector
+  .           {
+  .               public:
+  .                   // Constructor
+  4 ( 0.00%)          Vector()
+  .                   {
+  2 ( 0.00%)              sz = 4;
+  2 ( 0.00%)              max = 0;
+ 10 ( 0.00%)              array = new T[4];
+846 ( 0.04%)  => ???:operator new[](unsigned long) (1x)
+685 ( 0.04%)  => ./elf/../sysdeps/x86_64/dl-trampoline.h:_dl_runtime_resolve_xsave (1x)
+  3 ( 0.00%)          }
+  .           
+  .                   // Copy Constructor
+  .                   Vector(const Vector<T>& v)
+  .                   {
+  .                       sz = v.sz;
+  .                       max = v.max;
+  .                       array = new T[sz];
+  .                       for(unsigned int i = 0; i < max; i++)
+  .                       {
+  .                           array[i] = v.array[i];
+  .                       }
+  .                   }
+  .           
+  .                   // Destructor
+  4 ( 0.00%)          ~Vector()
+  .                   {
+ 13 ( 0.00%)              delete [] array;
+1,513 ( 0.08%)  => ???:operator delete[](void*) (1x)
+711 ( 0.04%)  => ./elf/../sysdeps/x86_64/dl-trampoline.h:_dl_runtime_resolve_xsave (1x)
+  3 ( 0.00%)          }
+  .           
+  .                   // Add elements to the vector
+  5 ( 0.00%)          void push_back(T v)
+  .                   {
+  .                       // Expand vector if needed
+  6 ( 0.00%)              if(max == sz)
+  .                       {
+  .                           sz = sz * 2;
+  .                           T* new_array = new T[sz];
+  .                           for(unsigned int i = 0; i < max; i++)
+  .                           {
+  .                               new_array[i] = array[i];
+  .                           }
+  .           
+  .                           delete[] array;
+  .                           array = new_array;
+  .                       }
+  .           
+  9 ( 0.00%)              array[max] = v;
+  5 ( 0.00%)              max++;
+  3 ( 0.00%)          }
+  .           
+  .                   // Read elements of the vector
+553 ( 0.03%)          T& operator[](const unsigned int idx)
+  .                   {
+316 ( 0.02%)              if(idx < 0 || idx >= max)
+  .                       {
+  .                           throw invalid_argument("Index out of range");
+  .                       }
+  .           
+474 ( 0.03%)              return array[idx];
+395 ( 0.02%)          }
+  .           
+  .                   // length getter
+  9 ( 0.00%)          unsigned int length() const
+  .                   {
+  6 ( 0.00%)              return max;
+  6 ( 0.00%)          }
+  .           
+  .                   // size getter
+  .                   unsigned int size() const
+  .                   {
+  .                       return sz;
+  .                   }
+  .           
+  .               private:
+-- line 78 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: prob3.cpp
+--------------------------------------------------------------------------------
+Ir             
+
+    .           #include<iostream>
+    .           #include"vector.h"
+    .           using namespace std;
+    .           
+    .           int main()
+    4 ( 0.00%)  {
+    3 ( 0.00%)      Vector<char *> lines;
+1,552 ( 0.08%)  => /home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem2/vector.h:Vector<char*>::Vector() (1x)
+    4 ( 0.00%)      char *buf = new char[100];
+  191 ( 0.01%)  => ???:operator new[](unsigned long) (1x)
+    .               unsigned int total;
+    .           
+   41 ( 0.00%)      while(cin.getline(buf, 100))
+32,342 ( 1.71%)  => ???:std::istream::getline(char*, long) (2x)
+1,709 ( 0.09%)  => ./elf/../sysdeps/x86_64/dl-trampoline.h:_dl_runtime_resolve_xsave (2x)
+    8 ( 0.00%)  => ???:std::basic_ios<char, std::char_traits<char> >::operator bool() const (2x)
+    .               {
+    5 ( 0.00%)          lines.push_back(buf);
+   28 ( 0.00%)  => /home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem2/vector.h:Vector<char*>::push_back(char*) (1x)
+    4 ( 0.00%)          buf = new char[100];
+  191 ( 0.01%)  => ???:operator new[](unsigned long) (1x)
+    .           
+    .                   // Calculate average line length
+    1 ( 0.00%)          total = 0;
+   17 ( 0.00%)          for(unsigned int i = 0; i < lines.length(); i++)
+   14 ( 0.00%)  => /home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem2/vector.h:Vector<char*>::length() const (2x)
+    .                   {
+    1 ( 0.00%)              unsigned int length = 0;
+1,107 ( 0.06%)              for(unsigned int j = 0; lines[i][j] != '\0'; j++)
+1,738 ( 0.09%)  => /home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem2/vector.h:Vector<char*>::operator[](unsigned int) (79x)
+    .                       {
+   78 ( 0.00%)                  length++;
+    .                       }
+    2 ( 0.00%)              total += length;
+    .                   }
+   25 ( 0.00%)          cout << total / lines.length() << endl;
+3,556 ( 0.19%)  => ???:std::ostream::operator<<(unsigned int) (1x)
+1,485 ( 0.08%)  => ./elf/../sysdeps/x86_64/dl-trampoline.h:_dl_runtime_resolve_xsave (2x)
+1,781 ( 0.09%)  => ???:std::ostream::operator<<(std::ostream& (*)(std::ostream&)) (1x)
+    7 ( 0.00%)  => /home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem2/vector.h:Vector<char*>::length() const (1x)
+    .               }
+    .           
+    1 ( 0.00%)      return 0;
+   27 ( 0.00%)  }
+2,244 ( 0.12%)  => /home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem2/vector.h:Vector<char*>::~Vector() (1x)
+
+--------------------------------------------------------------------------------
+The following files chosen for auto-annotation could not be found:
+--------------------------------------------------------------------------------
+  ./elf/../bits/stdlib-bsearch.h
+  ./elf/../elf/dl-tls.c
+  ./elf/../sysdeps/generic/dl-new-hash.h
+  ./elf/../sysdeps/generic/dl-protected.h
+  ./elf/../sysdeps/generic/ldsodefs.h
+  ./elf/../sysdeps/nptl/dl-tls_init_tp.c
+  ./elf/../sysdeps/unix/sysv/linux/dl-sysdep.c
+  ./elf/../sysdeps/x86/dl-cacheinfo.h
+  ./elf/../sysdeps/x86_64/dl-machine.h
+  ./elf/../sysdeps/x86_64/dl-trampoline.h
+  ./elf/./dl-find_object.h
+  ./elf/./dl-map-segments.h
+  ./elf/./elf/dl-cache.c
+  ./elf/./elf/dl-deps.c
+  ./elf/./elf/dl-environ.c
+  ./elf/./elf/dl-error-skeleton.c
+  ./elf/./elf/dl-find_object.c
+  ./elf/./elf/dl-hwcaps.c
+  ./elf/./elf/dl-hwcaps_split.c
+  ./elf/./elf/dl-init.c
+  ./elf/./elf/dl-load.c
+  ./elf/./elf/dl-lookup.c
+  ./elf/./elf/dl-minimal-malloc.c
+  ./elf/./elf/dl-minimal.c
+  ./elf/./elf/dl-misc.c
+  ./elf/./elf/dl-object.c
+  ./elf/./elf/dl-profstub.c
+  ./elf/./elf/dl-reloc.c
+  ./elf/./elf/dl-runtime.c
+  ./elf/./elf/dl-tunables.c
+  ./elf/./elf/dl-tunables.h
+  ./elf/./elf/dl-version.c
+  ./elf/./elf/do-rel.h
+  ./elf/./elf/get-dynamic-info.h
+  ./elf/./elf/rtld.c
+  ./elf/./get-dynamic-info.h
+  ./iconv/./iconv/gconv_simple.c
+  ./io/../sysdeps/unix/sysv/linux/open64_nocancel.c
+  ./libio/./libio/fileops.c
+  ./libio/./libio/genops.c
+  ./libio/./libio/getc.c
+  ./libio/./libio/iofflush.c
+  ./libio/./libio/ioungetc.c
+  ./libio/./libio/libioP.h
+  ./malloc/./malloc/malloc.c
+  ./setjmp/../sysdeps/x86_64/setjmp.S
+  ./stdlib/./stdlib/cxa_atexit.c
+  ./stdlib/./stdlib/cxa_finalize.c
+  ./stdlib/./stdlib/exit.c
+  ./string/../string/strcspn.c
+  ./string/../sysdeps/x86_64/multiarch/../multiarch/memset-vec-unaligned-erms.S
+  ./string/../sysdeps/x86_64/multiarch/../multiarch/strchr-sse2.S
+  ./string/../sysdeps/x86_64/multiarch/../multiarch/strcmp-sse2.S
+  ./string/../sysdeps/x86_64/multiarch/../multiarch/strlen-sse2.S
+  ./string/../sysdeps/x86_64/multiarch/memcmp-avx2-movbe.S
+  ./string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+  ./string/../sysdeps/x86_64/multiarch/strlen-avx2.S
+  ./wcsmbs/./wcsmbs/btowc.c
+  ./wcsmbs/./wcsmbs/wctob.c
+  ./wcsmbs/./wcsmbsload.h
+  ./wctype/./wctype/wctype_l.c
+
+--------------------------------------------------------------------------------
+Ir             
+--------------------------------------------------------------------------------
+3,148 ( 0.17%)  events annotated
+

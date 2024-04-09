@@ -14,7 +14,7 @@ int main()
         buf = new char[100];
 
         // Calculate average line length
-        total = 0;
+        total = 0; 
         for(unsigned int i = 0; i < lines.length(); i++)
         {
             unsigned int length = 0;
