@@ -1,0 +1,235 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.3238' (creator: callgrind-3.19.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 4613541
+Trigger: Program termination
+Profiled target:  ./prob2 (PID 3238, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+Ir                  
+--------------------------------------------------------------------------------
+33,695,942 (100.0%)  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir                   file:function
+--------------------------------------------------------------------------------
+11,011,000 (32.68%)  vector.h:Vector<int>::operator[](unsigned int) [/home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem1/prob2]
+ 8,544,500 (25.36%)  vector.h:Vector<int>::Vector(Vector<int> const&) [/home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem1/prob2]
+ 7,533,500 (22.36%)  prob2.cpp:int average<int>(Vector<int>) [/home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem1/prob2]
+ 3,517,500 (10.44%)  vector.h:Vector<int>::length() const [/home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem1/prob2]
+   488,602 ( 1.45%)  ./elf/../sysdeps/generic/dl-new-hash.h:_dl_lookup_symbol_x
+   478,308 ( 1.42%)  ./elf/./elf/dl-lookup.c:do_lookup_x [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+   171,654 ( 0.51%)  ./elf/./elf/dl-lookup.c:_dl_lookup_symbol_x [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+   126,298 ( 0.37%)  ./elf/./elf/dl-reloc.c:_dl_relocate_object [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+   121,362 ( 0.36%)  ./elf/../sysdeps/x86_64/dl-machine.h:_dl_relocate_object
+   105,428 ( 0.31%)  ./elf/./elf/do-rel.h:_dl_relocate_object
+   100,640 ( 0.30%)  ./elf/./elf/dl-lookup.c:check_match [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    85,466 ( 0.25%)  ./malloc/./malloc/malloc.c:_int_malloc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    84,743 ( 0.25%)  ./malloc/./malloc/malloc.c:_int_free [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    83,000 ( 0.25%)  ???:std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    82,105 ( 0.24%)  ./string/../sysdeps/x86_64/multiarch/../multiarch/strcmp-sse2.S:strcmp [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    69,077 ( 0.21%)  ???:std::ostream::sentry::sentry(std::ostream&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    62,992 ( 0.19%)  ./libio/./libio/fileops.c:_IO_file_xsputn@@GLIBC_2.2.5 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    52,027 ( 0.15%)  ???:std::ostream& std::ostream::_M_insert<long>(long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    52,000 ( 0.15%)  ???:0x0000000000123200 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    51,999 ( 0.15%)  ./libio/./libio/iofwrite.c:fwrite [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    48,000 ( 0.14%)  ./libio/./libio/fileops.c:new_do_write [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    44,592 ( 0.13%)  vector.h:Vector<int>::push_back(int) [/home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem1/prob2]
+    41,046 ( 0.12%)  prob2.cpp:main [/home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem1/prob2]
+    40,150 ( 0.12%)  ./libio/./libio/fileops.c:_IO_file_overflow@@GLIBC_2.2.5 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    39,214 ( 0.12%)  ./malloc/./malloc/malloc.c:malloc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    37,000 ( 0.11%)  ???:std::ostream::put(char) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    36,000 ( 0.11%)  ./libio/./libio/fileops.c:_IO_file_write@@GLIBC_2.2.5 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    34,117 ( 0.10%)  ???:std::ostream::flush() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    28,280 ( 0.08%)  ./libio/./libio/iofflush.c:fflush [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    27,872 ( 0.08%)  ./stdlib/./stdlib/random_r.c:random_r [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    24,383 ( 0.07%)  ./elf/./elf/dl-tunables.c:__GI___tunables_init [/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2]
+    22,008 ( 0.07%)  ???:std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    22,000 ( 0.07%)  ???:0x0000000000120170 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+    21,189 ( 0.06%)  ./malloc/./malloc/malloc.c:free [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    20,000 ( 0.06%)  ./stdlib/./stdlib/random.c:random [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    19,190 ( 0.06%)  ./libio/./libio/libioP.h:fflush
+    19,000 ( 0.06%)  ./libio/./libio/putc.c:putc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    18,981 ( 0.06%)  ./string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:__mempcpy_avx_unaligned_erms [/usr/lib/x86_64-linux-gnu/libc.so.6]
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: vector.h
+--------------------------------------------------------------------------------
+Ir                 
+
+        .           #include<stdexcept> // for invalid_argument
+        .           using namespace std;
+        .           
+        .           template<class T>
+        .           class Vector
+        .           {
+        .               public:
+        .                   // Constructor
+        4 ( 0.00%)          Vector()
+        .                   {
+        2 ( 0.00%)              sz = 4;
+        2 ( 0.00%)              max = 0;
+       10 ( 0.00%)              array = new T[4];
+      838 ( 0.00%)  => ???:operator new[](unsigned long) (1x)
+      667 ( 0.00%)  => ./elf/../sysdeps/x86_64/dl-trampoline.h:_dl_runtime_resolve_xsave (1x)
+        3 ( 0.00%)          }
+        .           
+        .                   // Copy Constructor
+    5,000 ( 0.01%)          Vector(const Vector<T>& v)
+        .                   {
+    4,000 ( 0.01%)              sz = v.sz;
+    4,000 ( 0.01%)              max = v.max;
+   13,000 ( 0.04%)              array = new T[sz];
+  143,310 ( 0.43%)  => ???:operator new[](unsigned long) (1,000x)
+2,508,500 ( 7.44%)              for(unsigned int i = 0; i < max; i++)
+        .                       {
+6,006,000 (17.82%)                  array[i] = v.array[i];
+        .                       }
+    4,000 ( 0.01%)          }
+        .           
+        .                   // Destructor
+    4,004 ( 0.01%)          ~Vector()
+        .                   {
+    9,013 ( 0.03%)              delete [] array;
+  115,669 ( 0.34%)  => ???:operator delete[](void*) (1,001x)
+      711 ( 0.00%)  => ./elf/../sysdeps/x86_64/dl-trampoline.h:_dl_runtime_resolve_xsave (1x)
+    3,003 ( 0.01%)          }
+        .           
+        .                   // Add elements to the vector
+    5,000 ( 0.01%)          void push_back(T v)
+        .                   {
+        .                       // Expand vector if needed
+    6,000 ( 0.02%)              if(max == sz)
+        .                       {
+       40 ( 0.00%)                  sz = sz * 2;
+       88 ( 0.00%)                  T* new_array = new T[sz];
+    1,456 ( 0.00%)  => ???:operator new[](unsigned long) (8x)
+    5,148 ( 0.02%)                  for(unsigned int i = 0; i < max; i++)
+        .                           {
+   11,220 ( 0.03%)                      new_array[i] = array[i];
+        .                           }
+        .           
+       72 ( 0.00%)                  delete[] array;
+      795 ( 0.00%)  => ???:operator delete[](void*) (8x)
+       24 ( 0.00%)                  array = new_array;
+        .                       }
+        .           
+    9,000 ( 0.03%)              array[max] = v;
+    5,000 ( 0.01%)              max++;
+    3,000 ( 0.01%)          }
+        .           
+        .                   // Read elements of the vector
+3,503,500 (10.40%)          T& operator[](const unsigned int idx)
+        .                   {
+2,002,000 ( 5.94%)              if(idx < 0 || idx >= max)
+        .                       {
+        .                           throw invalid_argument("Index out of range");
+        .                       }
+        .           
+3,003,000 ( 8.91%)              return array[idx];
+2,502,500 ( 7.43%)          }
+        .           
+        .                   // length getter
+1,507,500 ( 4.47%)          unsigned int length() const
+        .                   {
+1,005,000 ( 2.98%)              return max;
+1,005,000 ( 2.98%)          }
+        .           
+        .                   // size getter
+        .                   unsigned int size() const
+        .                   {
+        .                       return sz;
+        .                   }
+        .           
+        .               private:
+-- line 78 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: prob2.cpp
+--------------------------------------------------------------------------------
+Ir                 
+
+        .           #include<iostream>
+        .           #include<cstdlib>
+        .           #include<ctime>
+        .           #include"vector.h"
+        .           using namespace std;
+        .           
+        .           template<class T>
+    5,000 ( 0.01%)  int average(Vector<T> vect)
+        .           {
+    1,000 ( 0.00%)      int sum = 0;
+4,013,000 (11.91%)      for(unsigned int i = 0; i < vect.length(); i++)
+3,510,500 (10.42%)  => /home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem1/vector.h:Vector<int>::length() const (501,500x)
+        .               {
+3,503,500 (10.40%)          sum += vect[i];
+11,011,000 (32.68%)  => /home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem1/vector.h:Vector<int>::operator[](unsigned int) (500,500x)
+        .               }
+        .           
+    8,000 ( 0.02%)      return sum/vect.length();
+    7,000 ( 0.02%)  => /home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem1/vector.h:Vector<int>::length() const (1,000x)
+    3,000 ( 0.01%)  }
+        .           
+        .           int main()
+        4 ( 0.00%)  {
+       14 ( 0.00%)      srand(time(NULL));
+    6,196 ( 0.02%)  => ./stdlib/./stdlib/random.c:srand (1x)
+    1,496 ( 0.00%)  => ./elf/../sysdeps/x86_64/dl-trampoline.h:_dl_runtime_resolve_xsave (2x)
+        5 ( 0.00%)  => ./time/../sysdeps/unix/sysv/linux/time.c:time_syscall (1x)
+        3 ( 0.00%)      Vector<int> rand_nums;
+    1,526 ( 0.00%)  => /home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem1/vector.h:Vector<int>::Vector() (1x)
+        .           
+    3,004 ( 0.01%)      for(unsigned int i = 0; i < 1000; i++)
+        .               {
+   17,004 ( 0.05%)          rand_nums.push_back(rand()%1000);
+   51,872 ( 0.15%)  => ./stdlib/./stdlib/rand.c:rand (1,000x)
+   46,843 ( 0.14%)  => /home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem1/vector.h:Vector<int>::push_back(int) (1,000x)
+      714 ( 0.00%)  => ./elf/../sysdeps/x86_64/dl-trampoline.h:_dl_runtime_resolve_xsave (1x)
+   21,008 ( 0.06%)          cout << average(rand_nums) << endl;
+22,062,000 (65.47%)  => prob2.cpp:int average<int>(Vector<int>) (1,000x)
+8,687,810 (25.78%)  => /home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem1/vector.h:Vector<int>::Vector(Vector<int> const&) (1,000x)
+  418,194 ( 1.24%)  => ???:std::ostream::operator<<(int) (1,000x)
+  405,780 ( 1.20%)  => ???:std::ostream::operator<<(std::ostream& (*)(std::ostream&)) (1,000x)
+  132,222 ( 0.39%)  => /home/mturner/1575/2024-SP-301-postlab09-mjt6yf/problem1/vector.h:Vector<int>::~Vector() (1,000x)
+    1,477 ( 0.00%)  => ./elf/../sysdeps/x86_64/dl-trampoline.h:_dl_runtime_resolve_xsave (2x)
+        .               }
+        .           
+        1 ( 0.00%)      return 0;
+       27 ( 0.00%)  }
+  101,304 ( 0.30%)  => prob2.cpp:__static_initialization_and_destruction_0(int, int) (1x)
+
+--------------------------------------------------------------------------------
+The following files chosen for auto-annotation could not be found:
+--------------------------------------------------------------------------------
+  ./elf/../sysdeps/generic/dl-new-hash.h
+  ./elf/../sysdeps/x86_64/dl-machine.h
+  ./elf/./elf/dl-lookup.c
+  ./elf/./elf/dl-reloc.c
+  ./elf/./elf/dl-tunables.c
+  ./elf/./elf/do-rel.h
+  ./libio/./libio/fileops.c
+  ./libio/./libio/iofflush.c
+  ./libio/./libio/iofwrite.c
+  ./libio/./libio/libioP.h
+  ./libio/./libio/putc.c
+  ./malloc/./malloc/malloc.c
+  ./stdlib/./stdlib/random.c
+  ./stdlib/./stdlib/random_r.c
+  ./string/../sysdeps/x86_64/multiarch/../multiarch/strcmp-sse2.S
+  ./string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+
+--------------------------------------------------------------------------------
+Ir                  
+--------------------------------------------------------------------------------
+30,708,198 (91.13%)  events annotated
+
